@@ -1,0 +1,11 @@
+name: BabyNamesUS
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip=23.0
+  - pandas=1.4.4
+  - numpy=1.24.2
+  - pip:
+    - -r ../requirements.txt

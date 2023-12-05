@@ -1,0 +1,11 @@
+/notebooks/
+.idea
+.DS_Store
+*.txt
+*.TXT
+*.pdf
+*.egg
+*.egg-info
+*.ipynb_checkpoints
+/do_not_migrate
+*.cpython-39.pyc

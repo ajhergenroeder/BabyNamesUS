@@ -1,0 +1,6 @@
+from BabyNamesUS.pathnames import raw_namesbystate, filename_dot_txt_by_state_list
+from BabyNamesUS.utils_pandas import load_and_concat_list_of_txt
+
+df_names_by_state_yr = load_and_concat_list_of_txt(
+    list_dot_txt_by_state=filename_dot_txt_by_state_list
+)
